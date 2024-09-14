@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        #altmenü{
+            background-color: chartreuse;
+            border-style: solid;
+            border-width: 5px;
+            border-color: grey;
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            color: hotpink;
+        }
+            a{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12px
+            }
+            a:link{/*Ziyaret edilmemiş linklerin durumunu ayarlarız*/
+                color: red;
+
+            } 
+            a:visited{/*Ziyaret edilmiş linklerin durumunu ayarlarız*/
+                color: blue;
+
+            } 
+            a:hover{/*Fare linkin üzerine gittiği zaman ne olacağını ayarlarız*/
+                color: aqua;
+                text-decoration: underline; /*Metnin altını çiz*/
+
+            }
+            a:active{/*Link etkin olduğunda ne olur.*/
+                color: black;
+                text-decoration: underline; /*Metnin altını çiz*/
+            }  
+        </style>
+
+
+    </head>
+    <body>
+        <nav id="altmenü">
+            <a href="index.html">Anasayfa</a>
+            <a href="hakkımda.html">Hakkımda</a>
+            <a href="projeler.html">Projeler</a>
+            <a href="iletisim.html">İletişim</a>
+        </nav>
+
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border-style: solid;
+                border-color: blue;
+            }
+            #büyük{
+                width: 20px;
+                height: 100px;
+                background-color: yellowgreen;
+                position: fixed;
+                right: 0px;
+                bottom: 0px;
+            } 
+
+            #kücük{
+                width: 50px;
+                height: 100px;
+                background-color: blueviolet;
+                position: relative;
+                right: 0px;
+                bottom: 0px;
+            }
+
+            #ic{
+                width: 350px;
+                height: 100px;
+                background-color: red;
+                position: relative;
+                right: 0px;
+                top: 0px;
+                z-index: 1; /* z-index büyük olan önde görülür */
+                border-radius: 30px; /*köşeleri yuvarlatmada kullanılır */
+            }
+
+            #dıs{
+                width: 50px;
+                height: 50px;
+                background-color: rgb(9, 135, 13);
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                z-index: -1; /* z-index büyük olan önde görülür */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="büyük">
+
+        </div>
+        <div id="kücük">
+
+        </div>
+        <div id="ic">
+            <div id="dıs">
+
+            </div>
+        </div>
+
+        <img src="13-Temel CSS Bilgisi(Kutu Konumu).jpg"
+
+    </body>
+</html>
